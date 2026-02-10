@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Participition 2 : Visitor Application</title>
+</head>
+<body>
+    <h1 id="welcomeSign">Vistor Loading...</h1>
+    <p id="status">Status: Unknown</p>
+
+    <script>
+        //set the variables
+        let firstName=" Super";
+        let lastName=" Student";
+        let fullName=firstName + lastName;
+        //Add-pop-up
+        window.alert("Welcome" + fullName + " !");
+        //change header
+        document.getElementById("welcomeSign").innerHTML="Welcome" + fullName;
+        //change status
+        document.getElementById("status").innerHTML="Status: Online";
+    </script>
+</body>
+</html>
